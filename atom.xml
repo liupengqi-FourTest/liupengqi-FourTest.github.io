@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>刘鹏起的个人博客</title>
+  
+  <subtitle>为自己整理的学习文档</subtitle>
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2021-08-21T06:57:27.227Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>刘鹏起</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Angular简介</title>
+    <link href="http://example.com/2021/08/21/Angular%E7%AE%80%E4%BB%8B/"/>
+    <id>http://example.com/2021/08/21/Angular%E7%AE%80%E4%BB%8B/</id>
+    <published>2021-08-21T06:35:23.000Z</published>
+    <updated>2021-08-21T06:57:27.227Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Angular-是什么"><a href="#Angular-是什么" class="headerlink" title="Angular 是什么"></a>Angular 是什么</h2><ul><li><p><code>Angular</code>是一套用于构建用户界面的 <code>JavaScript</code> 框架。由 <code>Google</code> 开发和维护，主要被用来开发单页面应用程序。</p></li><li><p>类似于 Vue.js</p><ul><li>MVVM （数据驱动视图思想）</li><li>组件化</li><li>模块化</li><li>指令</li><li>……..</li></ul></li><li><p>由 Goole 开发和维护</p></li><li><p>开发单页面应用程序 （SPA）</p></li><li><p>特性</p><ul><li>MVVM</li><li>组件化</li><li>模块化</li><li>指令</li><li>服务</li><li>依赖注入</li><li>TypeScript</li><li>…</li></ul></li></ul><h2 id="发展历史"><a href="#发展历史" class="headerlink" title="发展历史"></a>发展历史</h2><ul><li><p>起源</p><ul><li><p>2009年，<code>Misko hevery</code> 和 <code>Adam abrons</code> 在业余时间打造了 <code>GetAngular</code></p><p><img src="/2021/08/21/Angular%E7%AE%80%E4%BB%8B/MiskoInterview.png" alt="MiskoInterview"></p><p><img src="/2021/08/21/Angular%E7%AE%80%E4%BB%8B/4529.jpg" alt="4529"></p></li></ul></li><li><p><code>Misko hevery</code> 接手了 <code>Google</code> 内部的一个项目 <code>Feedback</code> , 该项目经过 6 个月的迭代代码量已经达到了17000行。项目的开发和维护已经变得非常的困难。所以 <code>Misko</code>  就决定用 <code>GetAngular</code>  重写这个项目</p><ul><li><p>结果就是小伙子成功了，使用 <code>GetAngular</code> 之后该项目从 17000 行缩减到了 1500 行，前后仅仅使用了三周时间</p><p><img src="/2021/08/21/Angular%E7%AE%80%E4%BB%8B/17000-1500.png" alt="17000-1500"></p></li><li><p><code>Misko</code> 领导一看，小伙子很厉害啊，同时也看到了 <code>GetAngular</code> 所带来的商业价值，所以决定把 <code>GetAngular</code> 正式立项，组织专职团队开发和维护</p></li><li><p><code>Abrons</code> 后来离开了这个计划，但在 <code>Google</code> 工作的 <code>Hevery</code> 和一些谷歌员工如 <code>lgor Minar</code>  和   <code>Vojta Jina</code> 等则继续开发维护此库</p></li><li><p>由于已不再是个人项目，所以开发团队将 <code>GetAngular</code> 重新命名为了 <code>Angular JS</code></p><p><img src="/2021/08/21/Angular%E7%AE%80%E4%BB%8B/AngularJS-large.png" alt="AngularJS-large"></p></li></ul></li><li><p>至此，Angular JS 就进入了漫长的发展迭代阶段</p><ul><li>经过了三年的发展，Angular JS 在 2012 年 6 月份，<code>1.0.0</code> 版本正式推出</li><li>Angular JS 在 <code>1.2</code>之后的版本不再支持 IE 6 和 7</li><li>Angular JS 在 <code>1.3</code> 之后不再支持 IE 8</li><li>Angular JS 在 <code>1.5</code>增加了类似组件化的开发方式<ul><li>为过渡到 <code>Angular2</code> 做铺垫</li></ul></li><li><code>AngularJS 1.x.x</code>   当前已经发布到了 <code>1.6.x</code></li></ul></li><li><p>困境（Angular 1）</p><ul><li>饱受诟病的性能问题<ul><li>脏检查</li></ul></li><li>落后于当前 <code>Web</code> 发展理念<ul><li>例如组件化</li><li>模块化支持不友好</li></ul></li><li>对移动端支持不友好</li></ul></li><li><p>Angular 2横空出世</p><ul><li><p><code>Angular 1.x</code> 由于问题太多，历史包袱太重，重构几乎不可能</p></li><li><p>不过早在 2014年3月，官方博客就有提及开发新版本 <code>Angular</code>  的计划</p></li><li><p>2014年9月下旬一个大会上， <code>Angular2</code>  正式亮相</p></li><li><p>2016年9月15号，<code>Angular2</code> 正式发布。</p></li><li><p>由于 <code>ng2</code> 几乎完全重写了 <code>ng1</code> ，所以官方把 2 之后的版本都称之为 <code>Angular</code></p><p><img src="/2021/08/21/Angular%E7%AE%80%E4%BB%8B/Angular-large.png" alt="Angular-large"></p><p>Angular 2 之后的正式 logo ：</p><p><img src="/2021/08/21/Angular%E7%AE%80%E4%BB%8B/angular.png" alt="angular"></p></li></ul></li><li><p>新版本发布了，那用户如何从 1 升级到 2 呢？</p><p><img src="/2021/08/21/Angular%E7%AE%80%E4%BB%8B/ng2-ng1.png" alt="ng2-ng1"></p></li><li><p>那到底要不要更新呢？</p><p><img src="/2021/08/21/Angular%E7%AE%80%E4%BB%8B/mountain.png" alt="mountain"></p><ul><li><p> ng2 相比 ng1</p></li><li><p> 移除了 <code>controller + $scope</code> 的设计方式，改用了当前主流的组件化构建</p></li><li><p> 相比 <code>ng1</code> 性能更好</p></li><li><p> 优先为移动端设计</p></li><li><p>更贴合未来标准</p><ul><li>EcmaScript 6</li><li>Web Component</li></ul></li><li><p> TypeScript</p></li><li><p> 反正就是更现代化，更好了。。。</p></li></ul></li><li><p>现状</p><ul><li>自 <code>Angular 2</code> 之后，官方承诺之后的版本都会兼容到 <code>Angular 2</code></li><li>当前 <code>Angular</code> 最新发布版为 <code>10.0.0</code></li><li>新版的 <code>Angular</code> 在 <code>Github</code> 上也已收货了 3万+ </li><li>使用量低于 <code>React</code> 和 <code>Vue</code></li></ul></li></ul><h2 id="那我们为什么要学习使用-Angular"><a href="#那我们为什么要学习使用-Angular" class="headerlink" title="那我们为什么要学习使用 Angular"></a>那我们为什么要学习使用 Angular</h2><ul><li>任何一种技术或者框架，一定要有自己的特色，如果跟别人的完全一样，解决的问题也和别人一样，那存在的意义和价值就会遭到质疑<ul><li>企业需求</li><li>增加职业竞争力</li><li>技术的本质思想都是一样的，也许你在其他技术中无法理解的事物，在这里你能找到想要的答案</li></ul></li></ul><blockquote><p>在这里我们明白技术只是工具，主要目的还是用来帮助我们解决业务问题，作为开发人员，我们对待技术的态度应该博学开放，多学习和了解不同技术。只有当你见的东西多了才能有自己的想法，才不会人云亦云，不至于迷失在技术更新迭代的浪潮之中！</p></blockquote><h2 id="学习-Angular-的一些建议"><a href="#学习-Angular-的一些建议" class="headerlink" title="学习 Angular 的一些建议"></a>学习 Angular 的一些建议</h2><p><img src="/2021/08/21/Angular%E7%AE%80%E4%BB%8B/on-my-god.png" alt="on-my-god"></p><ul><li>Angular 属于一上来就有拔高的感觉，而 Vue的学习就是渐进式，相对来说比较容易<ul><li>读官方文档</li><li>写 demo 测试</li><li>写小项目练手</li><li>参与实际项目开发经验</li><li>日积月累………..</li></ul></li></ul><blockquote><p>这是一个知识开放的时代，我们每个人都拥有一本 《九阴真经》，至于你如何利用它产生价值则需要一些方式。我们学习技术就像武侠练功一样，希望大家像郭靖一样拥有坚韧不拔的精神，锲而不舍的探索下去，终成一代大侠</p></blockquote><h2 id="相关链接"><a href="#相关链接" class="headerlink" title="相关链接"></a>相关链接</h2><ul><li><a href="https://angularjs.org/">AngularJS 1.x.x 官网</a></li><li><a href="https://angular.io/">Angular 官网</a></li><li><a href="https://github.com/angular/angular">Angular Github</a></li><li><a href="https://angular.io/docs">Angular 官方文档</a></li><li><a href="https://angular.io/tutorial">Angular 官方教程</a></li><li><a href="https://angular.io/api">Angular APi文档</a></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;Angular-是什么&quot;&gt;&lt;a href=&quot;#Angular-是什么&quot; class=&quot;headerlink&quot; title=&quot;Angular 是什么&quot;&gt;&lt;/a&gt;Angular 是什么&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;Angular&lt;/code&gt;是一套用于</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>test</title>
+    <link href="http://example.com/2021/08/21/test/"/>
+    <id>http://example.com/2021/08/21/test/</id>
+    <published>2021-08-21T01:37:23.000Z</published>
+    <updated>2021-08-21T01:38:28.185Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="测试项目"><a href="#测试项目" class="headerlink" title="测试项目"></a>测试项目</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">f</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">&#x27;123&#x27;</span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;测试项目&quot;&gt;&lt;a href=&quot;#测试项目&quot; class=&quot;headerlink&quot; title=&quot;测试项目&quot;&gt;&lt;/a&gt;测试项目&lt;/h2&gt;&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Git入门指南</title>
+    <link href="http://example.com/2021/08/21/Git%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/"/>
+    <id>http://example.com/2021/08/21/Git%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/</id>
+    <published>2021-08-21T00:52:03.000Z</published>
+    <updated>2021-08-21T01:37:06.075Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p>Git 入门到放弃</p><p>Git！</p><h2 id="基本使用"><a href="#基本使用" class="headerlink" title="基本使用"></a>基本使用</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git init </span><br><span class="line"></span><br><span class="line">git <span class="built_in">log</span></span><br><span class="line"></span><br><span class="line">git add</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerlink&quot; title=&quot;介绍&quot;&gt;&lt;/a&gt;介绍&lt;/h2&gt;&lt;p&gt;Git 入门到放弃&lt;/p&gt;
+&lt;p&gt;Git！&lt;/p&gt;
+&lt;h2 id=&quot;基本使用&quot;&gt;&lt;a href=&quot;#基本使用&quot; class=&quot;headerl</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://example.com/2021/08/20/hello-world/"/>
+    <id>http://example.com/2021/08/20/hello-world/</id>
+    <published>2021-08-20T06:03:39.868Z</published>
+    <updated>2021-08-20T06:03:39.869Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
