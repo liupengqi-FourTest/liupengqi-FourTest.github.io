@@ -20,30 +20,38 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="Life is a chain of moments of enjoyment,not only about survival">
-<meta property="og:type" content="website">
-<meta property="og:title" content="刘鹏起的个人博客">
-<meta property="og:url" content="http://example.com/index.html">
+  <meta name="description" content="前言 目前，无论你使用什么前端框架，都必然要使用到各种 NodeJS 工具，Angular 也不例外。与其他框架不同，Angular 从一开始就走的 全家桶 式的设计思路，因此 @angular&#x2F;cli 这款工具里面集成了日常开发需要使用的所有 Node 模块，使用 @angular&#x2F;cli 可以大幅度降低搭建开发环境的难度   Angular CLI 类似于 Vue CLI，是 Angular">
+<meta property="og:type" content="article">
+<meta property="og:title" content="体验Angular">
+<meta property="og:url" content="http://example.com/2021/08/28/%E4%BD%93%E9%AA%8CAngular/index.html">
 <meta property="og:site_name" content="刘鹏起的个人博客">
-<meta property="og:description" content="Life is a chain of moments of enjoyment,not only about survival">
+<meta property="og:description" content="前言 目前，无论你使用什么前端框架，都必然要使用到各种 NodeJS 工具，Angular 也不例外。与其他框架不同，Angular 从一开始就走的 全家桶 式的设计思路，因此 @angular&#x2F;cli 这款工具里面集成了日常开发需要使用的所有 Node 模块，使用 @angular&#x2F;cli 可以大幅度降低搭建开发环境的难度   Angular CLI 类似于 Vue CLI，是 Angular">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://example.com/2021/08/28/%E4%BD%93%E9%AA%8CAngular/%E5%88%9B%E5%BB%BAangular%E9%A1%B9%E7%9B%AE.png">
+<meta property="og:image" content="http://example.com/2021/08/28/%E4%BD%93%E9%AA%8CAngular/%E6%94%B9%E7%94%A8cnpm%E5%AE%89%E8%A3%85.png">
+<meta property="og:image" content="http://example.com/2021/08/28/%E4%BD%93%E9%AA%8CAngular/%E5%90%AF%E5%8A%A8%E9%A1%B9%E7%9B%AE.png">
+<meta property="og:image" content="http://example.com/2021/08/28/%E4%BD%93%E9%AA%8CAngular/angular%E7%95%8C%E9%9D%A2.png">
+<meta property="og:image" content="http://example.com/2021/08/28/%E4%BD%93%E9%AA%8CAngular/%E9%A1%B9%E7%9B%AE%E5%88%B7%E6%96%B0.png">
+<meta property="article:published_time" content="2021-08-28T06:09:50.000Z">
+<meta property="article:modified_time" content="2021-08-28T06:13:57.175Z">
 <meta property="article:author" content="刘鹏起">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/2021/08/28/%E4%BD%93%E9%AA%8CAngular/%E5%88%9B%E5%BB%BAangular%E9%A1%B9%E7%9B%AE.png">
 
-<link rel="canonical" href="http://example.com/">
+<link rel="canonical" href="http://example.com/2021/08/28/%E4%BD%93%E9%AA%8CAngular/">
 
 
 <script id="page-configurations">
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
-    isHome : true,
-    isPost : false,
+    isHome : false,
+    isPost : true,
     lang   : 'en'
   };
 </script>
 
-  <title>刘鹏起的个人博客</title>
+  <title>体验Angular | 刘鹏起的个人博客</title>
   
 
 
@@ -151,9 +159,10 @@
         <div class="content-wrap">
           
 
-          <div class="content index posts-expand">
+          <div class="content post posts-expand">
             
-      
+
+    
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
@@ -169,10 +178,9 @@
       <meta itemprop="name" content="刘鹏起的个人博客">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/08/28/%E4%BD%93%E9%AA%8CAngular/" class="post-title-link" itemprop="url">体验Angular</a>
-        </h2>
+        <h1 class="post-title" itemprop="name headline">
+          体验Angular
+        </h1>
 
         <div class="post-meta">
             <span class="post-meta-item">
@@ -219,7 +227,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><ul>
+        <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><ul>
 <li>目前，无论你使用什么前端框架，都必然要使用到各种 NodeJS 工具，Angular 也不例外。与其他框架不同，Angular 从一开始就走的 <code>全家桶</code> 式的设计思路，因此 @angular/cli 这款工具里面集成了日常开发需要使用的所有 Node 模块，使用 @angular/cli 可以大幅度降低搭建开发环境的难度</li>
 </ul>
 <blockquote>
@@ -358,7 +366,6 @@
 <li>……</li>
 </ul>
 
-      
     </div>
 
     
@@ -367,445 +374,86 @@
 
     <div>
       
-    </div>
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
+        <div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;">-------------本文结束 <i class="fa fa-paw"></i> 感谢您的阅读-------------</div>
+    
+</div>
       
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/08/21/Angular%E7%AE%80%E4%BB%8B/">
+    </div>
+        <div class="reward-container">
+  <div>您的支持将鼓励我继续创作！</div>
+  <button onclick="var qr = document.getElementById('qr'); qr.style.display = (qr.style.display === 'none') ? 'block' : 'none';">
+    Donate
+  </button>
+  <div id="qr" style="display: none;">
+      <div style="display: inline-block;">
+        <img src="/images/wechatpay.jpg" alt="刘鹏起 微信">
+        <p>微信</p>
+      </div>
+      <div style="display: inline-block;">
+        <img src="/images/alipay.jpg" alt="刘鹏起 支付宝">
+        <p>支付宝</p>
+      </div>
 
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/001.jpg">
-      <meta itemprop="name" content="刘鹏起">
-      <meta itemprop="description" content="Life is a chain of moments of enjoyment,not only about survival">
-    </span>
+  </div>
+</div>
 
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="刘鹏起的个人博客">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/08/21/Angular%E7%AE%80%E4%BB%8B/" class="post-title-link" itemprop="url">Angular简介</a>
-        </h2>
+        
 
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
+<div>
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>Post author:  </strong>刘鹏起
+  </li>
+  <li class="post-copyright-link">
+    <strong>Post link: </strong>
+    <a href="http://example.com/2021/08/28/%E4%BD%93%E9%AA%8CAngular/" title="体验Angular">http://example.com/2021/08/28/体验Angular/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>Copyright Notice:  </strong>All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> unless stating additionally.
+  </li>
+</ul>
+</div>
 
-              <time title="Created: 2021-08-21 14:35:23" itemprop="dateCreated datePublished" datetime="2021-08-21T14:35:23+08:00">2021-08-21</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2021-08-23 12:54:30" itemprop="dateModified" datetime="2021-08-23T12:54:30+08:00">2021-08-23</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">In</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Angular/" itemprop="url" rel="index"><span itemprop="name">Angular</span></a>
-                </span>
-            </span>
+        
 
-          <br>
-            <span class="post-meta-item" title="Symbols count in article">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">Symbols count in article: </span>
-              <span>1.7k</span>
-            </span>
-            <span class="post-meta-item" title="Reading time">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">Reading time &asymp;</span>
-              <span>2 mins.</span>
+  <div class="followme">
+    <p>Welcome to my other publishing channels</p>
+
+    <div class="social-list">
+
+        <div class="social-item">
+          <a target="_blank" class="social-link" href="/atom.xml">
+            <span class="icon">
+              <i class="fa fa-rssrss"></i>
             </span>
 
+            <span class="label">RSS</span>
+          </a>
         </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h2 id="Angular-是什么"><a href="#Angular-是什么" class="headerlink" title="Angular 是什么"></a>Angular 是什么</h2><ul>
-<li><p><code>Angular</code>是一套用于构建用户界面的 <code>JavaScript</code> 框架。由 <code>Google</code> 开发和维护，主要被用来开发单页面应用程序。</p>
-</li>
-<li><p>类似于 Vue.js</p>
-<ul>
-<li>MVVM （数据驱动视图思想）</li>
-<li>组件化</li>
-<li>模块化</li>
-<li>指令</li>
-<li>……..</li>
-</ul>
-</li>
-<li><p>由 Goole 开发和维护</p>
-</li>
-<li><p>开发单页面应用程序 （SPA）</p>
-</li>
-<li><p>特性</p>
-<ul>
-<li>MVVM</li>
-<li>组件化</li>
-<li>模块化</li>
-<li>指令</li>
-<li>服务</li>
-<li>依赖注入</li>
-<li>TypeScript</li>
-<li>…</li>
-</ul>
-</li>
-</ul>
-<h2 id="发展历史"><a href="#发展历史" class="headerlink" title="发展历史"></a>发展历史</h2><ul>
-<li><p>起源</p>
-<ul>
-<li><p>2009年，<code>Misko hevery</code> 和 <code>Adam abrons</code> 在业余时间打造了 <code>GetAngular</code></p>
-<p><img src="/2021/08/21/Angular%E7%AE%80%E4%BB%8B/MiskoInterview.png" alt="MiskoInterview"></p>
-<p><img src="/2021/08/21/Angular%E7%AE%80%E4%BB%8B/4529.jpg" alt="4529"></p>
-</li>
-</ul>
-</li>
-<li><p><code>Misko hevery</code> 接手了 <code>Google</code> 内部的一个项目 <code>Feedback</code> , 该项目经过 6 个月的迭代代码量已经达到了17000行。项目的开发和维护已经变得非常的困难。所以 <code>Misko</code>  就决定用 <code>GetAngular</code>  重写这个项目</p>
-<ul>
-<li><p>结果就是小伙子成功了，使用 <code>GetAngular</code> 之后该项目从 17000 行缩减到了 1500 行，前后仅仅使用了三周时间</p>
-<p><img src="/2021/08/21/Angular%E7%AE%80%E4%BB%8B/17000-1500.png" alt="17000-1500"></p>
-</li>
-<li><p><code>Misko</code> 领导一看，小伙子很厉害啊，同时也看到了 <code>GetAngular</code> 所带来的商业价值，所以决定把 <code>GetAngular</code> 正式立项，组织专职团队开发和维护</p>
-</li>
-<li><p><code>Abrons</code> 后来离开了这个计划，但在 <code>Google</code> 工作的 <code>Hevery</code> 和一些谷歌员工如 <code>lgor Minar</code>  和   <code>Vojta Jina</code> 等则继续开发维护此库</p>
-</li>
-<li><p>由于已不再是个人项目，所以开发团队将 <code>GetAngular</code> 重新命名为了 <code>Angular JS</code></p>
-<p><img src="/2021/08/21/Angular%E7%AE%80%E4%BB%8B/AngularJS-large.png" alt="AngularJS-large"></p>
-</li>
-</ul>
-</li>
-<li><p>至此，Angular JS 就进入了漫长的发展迭代阶段</p>
-<ul>
-<li>经过了三年的发展，Angular JS 在 2012 年 6 月份，<code>1.0.0</code> 版本正式推出</li>
-<li>Angular JS 在 <code>1.2</code>之后的版本不再支持 IE 6 和 7</li>
-<li>Angular JS 在 <code>1.3</code> 之后不再支持 IE 8</li>
-<li>Angular JS 在 <code>1.5</code>增加了类似组件化的开发方式<ul>
-<li>为过渡到 <code>Angular2</code> 做铺垫</li>
-</ul>
-</li>
-<li><code>AngularJS 1.x.x</code>   当前已经发布到了 <code>1.6.x</code></li>
-</ul>
-</li>
-<li><p>困境（Angular 1）</p>
-<ul>
-<li>饱受诟病的性能问题<ul>
-<li>脏检查</li>
-</ul>
-</li>
-<li>落后于当前 <code>Web</code> 发展理念<ul>
-<li>例如组件化</li>
-<li>模块化支持不友好</li>
-</ul>
-</li>
-<li>对移动端支持不友好</li>
-</ul>
-</li>
-<li><p>Angular 2横空出世</p>
-<ul>
-<li><p><code>Angular 1.x</code> 由于问题太多，历史包袱太重，重构几乎不可能</p>
-</li>
-<li><p>不过早在 2014年3月，官方博客就有提及开发新版本 <code>Angular</code>  的计划</p>
-</li>
-<li><p>2014年9月下旬一个大会上， <code>Angular2</code>  正式亮相</p>
-</li>
-<li><p>2016年9月15号，<code>Angular2</code> 正式发布。</p>
-</li>
-<li><p>由于 <code>ng2</code> 几乎完全重写了 <code>ng1</code> ，所以官方把 2 之后的版本都称之为 <code>Angular</code></p>
-<p><img src="/2021/08/21/Angular%E7%AE%80%E4%BB%8B/Angular-large.png" alt="Angular-large"></p>
-<p>Angular 2 之后的正式 logo ：</p>
-<p><img src="/2021/08/21/Angular%E7%AE%80%E4%BB%8B/angular.png" alt="angular"></p>
-</li>
-</ul>
-</li>
-<li><p>新版本发布了，那用户如何从 1 升级到 2 呢？</p>
-<p><img src="/2021/08/21/Angular%E7%AE%80%E4%BB%8B/ng2-ng1.png" alt="ng2-ng1"></p>
-</li>
-<li><p>那到底要不要更新呢？</p>
-<p><img src="/2021/08/21/Angular%E7%AE%80%E4%BB%8B/mountain.png" alt="mountain"></p>
-<ul>
-<li><p> ng2 相比 ng1</p>
-</li>
-<li><p> 移除了 <code>controller + $scope</code> 的设计方式，改用了当前主流的组件化构建</p>
-</li>
-<li><p> 相比 <code>ng1</code> 性能更好</p>
-</li>
-<li><p> 优先为移动端设计</p>
-</li>
-<li><p>更贴合未来标准</p>
-<ul>
-<li>EcmaScript 6</li>
-<li>Web Component</li>
-</ul>
-</li>
-<li><p> TypeScript</p>
-</li>
-<li><p> 反正就是更现代化，更好了。。。</p>
-</li>
-</ul>
-</li>
-<li><p>现状</p>
-<ul>
-<li>自 <code>Angular 2</code> 之后，官方承诺之后的版本都会兼容到 <code>Angular 2</code></li>
-<li>当前 <code>Angular</code> 最新发布版为 <code>10.0.0</code></li>
-<li>新版的 <code>Angular</code> 在 <code>Github</code> 上也已收货了 3万+ </li>
-<li>使用量低于 <code>React</code> 和 <code>Vue</code></li>
-</ul>
-</li>
-</ul>
-<h2 id="那我们为什么要学习使用-Angular"><a href="#那我们为什么要学习使用-Angular" class="headerlink" title="那我们为什么要学习使用 Angular"></a>那我们为什么要学习使用 Angular</h2><ul>
-<li>任何一种技术或者框架，一定要有自己的特色，如果跟别人的完全一样，解决的问题也和别人一样，那存在的意义和价值就会遭到质疑<ul>
-<li>企业需求</li>
-<li>增加职业竞争力</li>
-<li>技术的本质思想都是一样的，也许你在其他技术中无法理解的事物，在这里你能找到想要的答案</li>
-</ul>
-</li>
-</ul>
-<blockquote>
-<p>在这里我们明白技术只是工具，主要目的还是用来帮助我们解决业务问题，作为开发人员，我们对待技术的态度应该博学开放，多学习和了解不同技术。只有当你见的东西多了才能有自己的想法，才不会人云亦云，不至于迷失在技术更新迭代的浪潮之中！</p>
-</blockquote>
-<h2 id="学习-Angular-的一些建议"><a href="#学习-Angular-的一些建议" class="headerlink" title="学习 Angular 的一些建议"></a>学习 Angular 的一些建议</h2><p><img src="/2021/08/21/Angular%E7%AE%80%E4%BB%8B/on-my-god.png" alt="on-my-god"></p>
-<ul>
-<li>Angular 属于一上来就有拔高的感觉，而 Vue的学习就是渐进式，相对来说比较容易<ul>
-<li>读官方文档</li>
-<li>写 demo 测试</li>
-<li>写小项目练手</li>
-<li>参与实际项目开发经验</li>
-<li>日积月累………..</li>
-</ul>
-</li>
-</ul>
-<blockquote>
-<p>这是一个知识开放的时代，我们每个人都拥有一本 《九阴真经》，至于你如何利用它产生价值则需要一些方式。我们学习技术就像武侠练功一样，希望大家像郭靖一样拥有坚韧不拔的精神，锲而不舍的探索下去，终成一代大侠</p>
-</blockquote>
-<h2 id="相关链接"><a href="#相关链接" class="headerlink" title="相关链接"></a>相关链接</h2><ul>
-<li><a target="_blank" rel="noopener" href="https://angularjs.org/">AngularJS 1.x.x 官网</a></li>
-<li><a target="_blank" rel="noopener" href="https://angular.io/">Angular 官网</a></li>
-<li><a target="_blank" rel="noopener" href="https://github.com/angular/angular">Angular Github</a></li>
-<li><a target="_blank" rel="noopener" href="https://angular.io/docs">Angular 官方文档</a></li>
-<li><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Angular 官方教程</a></li>
-<li><a target="_blank" rel="noopener" href="https://angular.io/api">Angular APi文档</a></li>
-</ul>
-
-      
     </div>
+  </div>
 
-    
-    
-    
 
-    <div>
-      
-    </div>
       <footer class="post-footer">
-        <div class="post-eof"></div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2021/08/21/Angular%E7%AE%80%E4%BB%8B/" rel="prev" title="Angular简介">
+      <i class="fa fa-chevron-left"></i> Angular简介
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
       </footer>
+    
   </article>
   
   
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/08/21/Git%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/001.jpg">
-      <meta itemprop="name" content="刘鹏起">
-      <meta itemprop="description" content="Life is a chain of moments of enjoyment,not only about survival">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="刘鹏起的个人博客">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/08/21/Git%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/" class="post-title-link" itemprop="url">Git入门指南</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-              
-
-              <time title="Created: 2021-08-21 08:52:03 / Modified: 09:37:06" itemprop="dateCreated datePublished" datetime="2021-08-21T08:52:03+08:00">2021-08-21</time>
-            </span>
-
-          <br>
-            <span class="post-meta-item" title="Symbols count in article">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">Symbols count in article: </span>
-              <span>42</span>
-            </span>
-            <span class="post-meta-item" title="Reading time">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">Reading time &asymp;</span>
-              <span>1 mins.</span>
-            </span>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p>Git 入门到放弃</p>
-<p>Git！</p>
-<h2 id="基本使用"><a href="#基本使用" class="headerlink" title="基本使用"></a>基本使用</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git init </span><br><span class="line"></span><br><span class="line">git <span class="built_in">log</span></span><br><span class="line"></span><br><span class="line">git add</span><br></pre></td></tr></table></figure>
-
-
-      
-    </div>
-
-    
-    
-    
-
-    <div>
-      
-    </div>
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/08/20/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/001.jpg">
-      <meta itemprop="name" content="刘鹏起">
-      <meta itemprop="description" content="Life is a chain of moments of enjoyment,not only about survival">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="刘鹏起的个人博客">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/08/20/hello-world/" class="post-title-link" itemprop="url">Hello World</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-
-              <time title="Created: 2021-08-20 14:03:39" itemprop="dateCreated datePublished" datetime="2021-08-20T14:03:39+08:00">2021-08-20</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2021-08-23 12:59:48" itemprop="dateModified" datetime="2021-08-23T12:59:48+08:00">2021-08-23</time>
-              </span>
-
-          <br>
-            <span class="post-meta-item" title="Symbols count in article">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">Symbols count in article: </span>
-              <span>367</span>
-            </span>
-            <span class="post-meta-item" title="Reading time">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">Reading time &asymp;</span>
-              <span>1 mins.</span>
-            </span>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-      
-    </div>
-
-    
-    
-    
-
-    <div>
-      
-    </div>
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-
   
 
 
@@ -858,6 +506,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#angular-cli-%E6%89%80%E5%8C%85%E5%90%AB%E5%8A%9F%E8%83%BD"><span class="nav-number">2.</span> <span class="nav-text">@angular&#x2F;cli 所包含功能</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85-angular-cli-%E4%BE%9D%E8%B5%96%E7%8E%AF%E5%A2%83"><span class="nav-number">3.</span> <span class="nav-text">安装 @angular&#x2F;cli 依赖环境</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85%E8%84%9A%E6%89%8B%E6%9E%B6%E5%B7%A5%E5%85%B7"><span class="nav-number">4.</span> <span class="nav-text">安装脚手架工具</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85%E5%A4%B1%E8%B4%A5%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88"><span class="nav-number">5.</span> <span class="nav-text">安装失败解决方案</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BD%BF%E7%94%A8%E8%84%9A%E6%89%8B%E6%9E%B6%E5%B7%A5%E5%85%B7%E5%88%9D%E5%A7%8B%E5%8C%96%E9%A1%B9%E7%9B%AE"><span class="nav-number">5.1.</span> <span class="nav-text">使用脚手架工具初始化项目</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Server-the-application"><span class="nav-number">6.</span> <span class="nav-text">Server the application</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BD%93%E9%AA%8C%E4%B8%80%E4%B8%8B-Angular"><span class="nav-number">7.</span> <span class="nav-text">体验一下 Angular</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%90%AF%E5%8A%A8%E8%BF%87%E7%A8%8B"><span class="nav-number">8.</span> <span class="nav-text">启动过程</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84"><span class="nav-number">9.</span> <span class="nav-text">目录结构</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#npm-scripts-%E4%BB%8B%E7%BB%8D"><span class="nav-number">10.</span> <span class="nav-text">npm scripts 介绍</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#angular-cli-json-%E6%96%87%E4%BB%B6"><span class="nav-number">11.</span> <span class="nav-text">.angular-cli.json 文件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#main-js"><span class="nav-number">12.</span> <span class="nav-text">main.js</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#AppModule"><span class="nav-number">13.</span> <span class="nav-text">AppModule</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#AppComponent"><span class="nav-number">14.</span> <span class="nav-text">AppComponent</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%85%B6%E5%AE%83%E8%B5%84%E6%BA%90"><span class="nav-number">15.</span> <span class="nav-text">其它资源</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
